@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: #77a1d3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #e684ae,
+        #79cbca,
+        #77a1d3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e684ae, #79cbca, #77a1d3);
+}
+#titulo {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+#titulo:hover {
+    color: red;
+    font-size: 45px;
+}
+#contenedor {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: 60px 0 0 350px;
+    transition: all 0.25s;
+}
+#operadores {
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 159px;
+    background-color: yellow;
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.25s;
+}
+#respuesta {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 250px;
+    height: 70px;
+    padding-top: 15px;
+    position: absolute;
+    left: 480px;
+    top: 450px;
+    text-align: center;
+}
+div:hover {
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-15px);
+}
+form {
+    padding: 50px 0 0 150px;
+}
+label {
+    font-size: 25px;
+}
+button {
+    width: 120px;
+    height: 50px;
+    margin-top: 49px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
